@@ -1,0 +1,115 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  /* background: rgb(0, 0, 0); */
+}
+html,
+body {
+  line-height: 1.7rem;
+}
+a {
+  text-decoration: none;
+}
+.bg-dark {
+  background: rgb(54, 54, 54);
+  color: white;
+}
+.bg-light {
+  background: rgb(93, 92, 92);
+  color: white;
+}
+.bg-primary {
+  color: white;
+  background: red;
+}
+.btn {
+  border-radius: 5px;
+  display: inline-block;
+  padding: 10px 20px;
+  color: white;
+  background: red;
+  font-size: 1.1rem;
+  border: none;
+  cursor: pointer;
+}
+.clr {
+  clear: both;
+}
+.container {
+  margin: auto;
+  max-width: 1100px;
+  overflow: auto;
+  padding: 0 20px;
+}
+.text-primary {
+  color: red;
+}
+#nav-bar {
+  background: rgb(54, 54, 54);
+  overflow: auto;
+}
+#nav-bar .logo {
+  display: inline;
+}
+#nav-bar .logo img {
+  background: none;
+  width: 8%;
+}
+#nav-bar .phone-number {
+  padding-top: 20px;
+  font-size: 150%;
+  background-color: transparent;
+  float: right;
+}
+#main-content {
+  background: url(../img/black-white.jpeg) no-repeat center center/cover;
+  height: 1000px;
+  color: white;
+}
+#main-content h1 {
+  font-size: 2rem;
+  padding: 200px 100px 100px 100px;
+  margin: auto;
+  text-align: center;
+}
+#main-content p {
+  font-size: 1.4rem;
+  padding: 100px;
+  margin: auto;
+  text-align: center;
+}
+.top-content {
+  padding-bottom: 2%;
+  text-align: center;
+}
+#skills {
+  padding: 0;
+}
+#skills .skills-box {
+  float: left;
+  padding: 2%;
+  width: 33.3%;
+}
+#skills .skills-box i,
+h3,
+#form .form {
+  display: block;
+  padding: 3%;
+}
+#form .form label {
+  margin-bottom: 10px;
+}
+#form .form input {
+  padding: 15px;
+  width: 100%;
+}
+#form .form textarea {
+  padding: 25px;
+  width: 100%;
+}
+#main-footer {
+  padding: 10px;
+  text-align: center;
+}
